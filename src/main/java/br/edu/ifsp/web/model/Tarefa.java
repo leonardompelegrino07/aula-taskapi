@@ -27,6 +27,13 @@ public class Tarefa {
 
     public Boolean isConcluida() { return concluida; }
     public void setConcluida(Boolean concluida) { this.concluida = concluida; }
+    
+
+    private int usuarioId;
+
+   
+    public int getUsuarioId() { return usuarioId; }
+    public void setUsuarioId(int usuarioId) { this.usuarioId = usuarioId; }
 }
 
 
